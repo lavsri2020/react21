@@ -71,7 +71,7 @@ showSuggestion = () => {
    
    <div className="alignment-home">
     <div className="logo-home">  <b> e!</b>  </div>
-{/*--heading and search boxes*/}
+
  
   <div className="heading-home">
           FIND THE BEST RESTAURANTS,CAFES AND BARS !
