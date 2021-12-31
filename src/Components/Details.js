@@ -40,7 +40,7 @@ class Details extends React.Component {
         const { restaurant } = qs;
 
         axios({
-            url: `  https://blooming-island-50058.herokuapp.com/api/restaurant/${restaurant}`,
+            url: `  https://peaceful-falls-80602.herokuapp.com/restaurant/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -56,7 +56,7 @@ class Details extends React.Component {
         if (state == "menuItemsModalIsOpen" && value == true) {
             console.log(resId);
             axios({
-                url:` https://blooming-island-50058.herokuapp.com/api/menuitems/${resId}`,
+                url:` https://peaceful-falls-80602.herokuapp.com/menuitems/${resId}`,
                    method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             }).then(res => {
@@ -130,7 +130,7 @@ class Details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`https://blooming-island-50058.herokuapp.com/api/payment`, {
+        return fetch(`https://peaceful-falls-80602.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",

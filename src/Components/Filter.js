@@ -36,7 +36,7 @@ class Filter extends React.Component {
             };
 
             axios({
-                url:'https://blooming-island-50058.herokuapp.com/api/filter',
+                url:'https://peaceful-falls-80602.herokuapp.com/filter',
                 method:'POST',
                 headers:{'Content-Type': 'application/json'},
                 data: filterObj
@@ -46,7 +46,7 @@ class Filter extends React.Component {
             })
             .catch(err => console.log(err))
             axios({
-                url: ' https://blooming-island-50058.herokuapp.com/api/locations',
+                url: ' https://peaceful-falls-80602.herokuapp.com/locations',
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             })
@@ -69,7 +69,7 @@ class Filter extends React.Component {
             };
 
             axios({
-                url:'  https://blooming-island-50058.herokuapp.com/api/filter',
+                url:'  https://peaceful-falls-80602.herokuapp.com/filter',
                 method:'POST',
                 headers:{'Content-Type': 'application/json'},
                 data: filterObj
@@ -95,7 +95,7 @@ class Filter extends React.Component {
             };
     
             axios({
-                url: 'https://blooming-island-50058.herokuapp.com/api/filter',
+                url: 'https://peaceful-falls-80602.herokuapp.com/filter',
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 data: filterObj
@@ -121,7 +121,7 @@ class Filter extends React.Component {
             };
     
             axios({
-                url: '  https://blooming-island-50058.herokuapp.com/api/filter',
+                url: '  https://peaceful-falls-80602.herokuapp.com/filter',
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 data: filterObj
@@ -149,7 +149,7 @@ class Filter extends React.Component {
             };
     
             axios({
-                url: ' https://blooming-island-50058.herokuapp.com/api/filter',
+                url: ' https://peaceful-falls-80602.herokuapp.com/filter',
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 data: filterObj
@@ -175,7 +175,7 @@ class Filter extends React.Component {
                 };
         
                 axios({
-                    url: ' https://blooming-island-50058.herokuapp.com/api/filter',
+                    url: ' https://peaceful-falls-80602.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj

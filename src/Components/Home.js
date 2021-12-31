@@ -16,7 +16,7 @@ class Home extends React.Component{
     {
     sessionStorage.clear();
     axios({
-        url:'  https://blooming-island-50058.herokuapp.com/api/locations',
+        url:'  https://peaceful-falls-80602.herokuapp.com/locations',
         method:'GET',
         headers:{'Content-Type': 'application/json'}
         }) .then(res => {
@@ -26,7 +26,7 @@ class Home extends React.Component{
         .catch(err => console.log(err))
 
     axios({
-        url:'  https://blooming-island-50058.herokuapp.com/api/mealtypes',
+        url:'  https://peaceful-falls-80602.herokuapp.com/mealtypes',
         method: 'GET',
         headers: {'Content-Type': 'application/json' }
     })
