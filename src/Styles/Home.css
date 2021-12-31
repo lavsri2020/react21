@@ -220,5 +220,8 @@ vertical-align: top;
 #notebooks{
     width: 250px;
 }
+#query{
+    font-size: 17px;
+}
         
     } 
