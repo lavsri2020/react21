@@ -198,20 +198,18 @@ vertical-align: top;
 {
     .logo-home {
        
-        
     height: 167px;
     width: 140px;
     border-radius: 50%;
     text-align: center;
     font-size: 100px;
-    margin-left: 60px;
+    margin-left: 24px;
 
     }
     .heading-home {
         font-size: 17px;
         font-weight: bold;
-        margin-left: -25%;
-    
+        margin-left: -32%;
         }
         .location {
             margin-left: -96px;
